@@ -9,6 +9,9 @@ const appointmentsSchema = new Schema({
     time: {
         type: String,
         trim: true
+    },
+    client: {
+        type: String
     }
 });
 
