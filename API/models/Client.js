@@ -17,6 +17,9 @@ const clientsSchema = new Schema({
     email: {
         type: String,
         trim: true
+    },
+    password: {
+        type: String
     }
 });
 

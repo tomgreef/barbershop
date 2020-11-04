@@ -10,4 +10,5 @@ This will install express and mongoose, which is a third party that will allow u
 This will only be installed in the development environment. Nodemon will refresh the page everytime we make a change.
 
 ## API creation
-We will start by modifying the index.js file within the API folder to start creating the server with Express.
+We will start by modifying the index.js file within the API folder to start creating the server with Express. After that we will need to create the models and controllers that will be used in the routes.
+
