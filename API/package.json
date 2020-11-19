@@ -4,7 +4,7 @@
   "description": "Backend with Mongo and Express",
   "main": "index.js",
   "scripts": {
-    "dev" : "nodemon ./index.js"
+    "dev": "nodemon ./index.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/tomgreef/barbershop#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "mongoose": "^5.10.11"
   },

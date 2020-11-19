@@ -1,7 +1,11 @@
 # Barbershop
 This repositorie is for a Barbershop/Hair Salon project called OnHair Barbershop in the centre of Málaga.
 
-## Step by step commands in CLI for API folder
+## Setup
+1. Run `npm run dev` from the API folder.
+2. Run `npm start` from the frontend folder.
+
+## Step by step commands in CLI for the creation of API folder
 1. `npm init`
 This command will create our backend with Mongo and Express.
 2. `npm install express mongoose`

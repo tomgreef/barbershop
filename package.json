@@ -1,0 +1,19 @@
+{
+  "name": "barbershop",
+  "version": "1.0.0",
+  "description": "This repositorie is for a Barbershop/Hair Salon project called OnHair Barbershop in the centre of Málaga.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomgreef/barbershop.git"
+  },
+  "author": "OnHair Barbershop",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tomgreef/barbershop/issues"
+  },
+  "homepage": "https://github.com/tomgreef/barbershop#readme"
+}

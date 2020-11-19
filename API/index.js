@@ -2,9 +2,27 @@ const express = require('express');
 const mongoose = require('mongoose');
 const routes = require('./routes');
 const bodyParser = require('body-parser');
+const cors = require('cors');
 
 // Create the server
 const app = express();
+
+// Enable CORS
+const whitelist = ['http://localhost:3000', 'http://localhost:4000'];
+const corsOptions = {
+    origin: (origin, callback) => {
+        // console.log(origin)
+        const exists = whitelist.some(domain => domain == origin)
+        if (exists){
+            callback(null,true)
+        } else {
+            callback(new Error('Not whitelisted'))
+        }
+    }
+}
+
+//app.use(cors(corsOptions)); This is for production to whitelist URLS
+app.use(cors());
 
 // Conect to MongoDB
 mongoose.Promise = global.Promise;
